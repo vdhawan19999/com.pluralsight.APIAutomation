@@ -21,6 +21,5 @@ public class DeleteRepo extends Base {
         response = client.execute(request);
         int getResponseCode = response.getStatusLine().getStatusCode();
         Assert.assertEquals(getResponseCode, 204);
-
     }
 }
